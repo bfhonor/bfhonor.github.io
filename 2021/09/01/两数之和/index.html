@@ -6,7 +6,7 @@
 <meta property="og:description" content="给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。你可以按任意顺序返回答案。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-09-01T14:02:59.233Z">
-<meta property="article:modified_time" content="2021-09-02T12:09:39.627Z">
+<meta property="article:modified_time" content="2021-09-02T13:54:07.453Z">
 <meta property="article:author" content="Zmeng">
 <meta property="article:tag" content="LeetCode">
 <meta property="article:tag" content="数组">
@@ -53,7 +53,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></he
 <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></div></figure></li>
 <li><p><strong>示例3：</strong></p>
 <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></div></figure></li>
-<li><p><strong>提示：</strong><br>①、 2 &lt;= nums.length &lt;= 10^4^<br>②、 -10^9^ &lt;= nums[i] &lt;= 10^9^<br>③、 -10^9^ &lt;= target &lt;= 10^9^<br>④、只会存在一个有效答案</p>
+<li><p><strong>提示：</strong><br>①、 2 &lt;= nums.length &lt;= 10^4<br>②、 -10^9 &lt;= nums[i] &lt;= 10^9<br>③、 -10^9 &lt;= target &lt;= 10^9<br>④、只会存在一个有效答案</p>
 
         <h4 id="一、暴力方法"   >
           <a href="#一、暴力方法" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、暴力方法" class="headerlink" title="一、暴力方法"></a>一、暴力方法</h4>
@@ -74,7 +74,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></he
         <h5 id="（三）复杂度分析"   >
           <a href="#（三）复杂度分析" class="heading-link"><i class="fas fa-link"></i></a><a href="#（三）复杂度分析" class="headerlink" title="（三）复杂度分析"></a>（三）复杂度分析</h5>
       <ul>
-<li>时间复杂度：O(N^2^)，其中N是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</li>
+<li>时间复杂度：O(N^2)，其中N是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</li>
 <li>空间复杂度：O(1)。</li>
 </ul>
 
